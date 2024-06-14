@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="header">
+    <meta charset="UTF-8">
+    <title>[PentesterLab]</title>
+    <link rel="stylesheet" media="screen" th:href="@{/css/bootstrap.css}" />
+    <link rel="stylesheet" media="screen" th:href="@{/css/pentesterlab.css}" />
+</head>
+<body>
+<div class="container">
+    <div class="header" th:fragment="menu">
+        <div class="navbar navbar-fixed-top">
+            <div class="nav-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="https://pentesterlab.com">PentesterLab.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer th:fragment="footer">
+        <p class="p-3">&copy; PentesterLab</p>
+    </footer>
+</div>
+</body>
+</html>
